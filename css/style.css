@@ -76,6 +76,14 @@ nav ul li a {
     flex: 2;
 }
 
+.logo {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 1.8rem;  /* bump the size slightly */
+    letter-spacing: 0.05em;
+    color: #2d3748; /* dark slate, change as you like */
+}
+
 .hero-content h1 {
     margin-bottom: 0.5rem;
 }
