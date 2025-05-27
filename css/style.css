@@ -334,3 +334,62 @@ h1, h2, h3 {
         padding: 1.5rem;
     }
 }
+
+/* Tutorials section */
+.tutorial-grid {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.tutorial-card {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.tutorial-card:last-child {
+    border-bottom: none;
+}
+
+.tutorial-card h3 {
+    font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.tutorial-card h3 a {
+    color: #2d3748;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.tutorial-card h3 a:hover {
+    color: #4f46e5;
+}
+
+.tutorial-metadata {
+    font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+    display: flex;
+    gap: 1rem;
+    color: #718096;
+    font-size: 0.9rem;
+}
+
+.tutorial-metadata span {
+    color: #718096;
+}
+
+/* Responsive adjustments for tutorials */
+@media (max-width: 768px) {
+    .tutorial-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .tutorial-card {
+        padding: 1.5rem;
+    }
+}
