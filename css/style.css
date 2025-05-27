@@ -1,0 +1,264 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Hero section */
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    background: #f9f9f9;
+}
+
+/* Sections */
+section {
+    padding: 5rem 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Portfolio grid */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+/* Additional Styles */
+.hero-tags {
+    margin-top: 2rem;
+}
+
+.hero-tags span {
+    background: #f0f0f0;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    margin: 0.5rem;
+    display: inline-block;
+    font-size: 0.9rem;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content p {
+    margin-bottom: 2rem;
+    line-height: 1.8;
+}
+
+.about-content .expertise {
+    margin-top: 3rem;
+}
+
+.expertise ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.expertise li {
+    background: #f8f8f8;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.project-card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.tech-stack {
+    margin-top: 1rem;
+}
+
+.tech-stack span {
+    background: #eef2ff;
+    color: #4f46e5;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.project-links {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.project-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #4f46e5;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    padding: 0.75rem 1.25rem;
+    background-color: #f3f4f6;
+    border-radius: 8px;
+}
+
+.project-links a:hover {
+    color: #4338ca;
+    background-color: #e5e7eb;
+    transform: translateY(-2px);
+}
+
+.project-links i {
+    font-size: 1.1rem;
+}
+
+/* Enhance existing styles */
+body {
+    font-family: 'Inter', 'Arial', sans-serif;
+    line-height: 1.7;
+    color: #2d3748;
+}
+
+nav ul li a:hover {
+    color: #4f46e5;
+}
+
+.hero {
+    background: linear-gradient(to bottom right, #f8f9fa, #e9ecef);
+}
+
+h1, h2, h3 {
+    color: #1a202c;
+}
+
+/* Enhanced hero section */
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+    color: #1a202c;
+}
+
+.hero .subtitle {
+    font-size: 2rem;
+    color: #4a5568;
+    margin-bottom: 2rem;
+}
+
+/* Contact section styling */
+.contact-section {
+    background: #f8f9fa;
+    padding: 4rem 2rem;
+}
+
+.contact-info {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+
+.contact-item i {
+    color: #4f46e5;
+    font-size: 1.5rem;
+}
+
+.contact-item a {
+    color: #2d3748;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: #4f46e5;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 3rem;
+    }
+    
+    .hero .subtitle {
+        font-size: 1.5rem;
+    }
+    
+    nav {
+        flex-direction: column;
+    }
+    
+    nav ul {
+        margin-top: 1rem;
+    }
+    
+    .hero {
+        height: auto;
+        padding: 4rem 1rem;
+    }
+    
+    .expertise ul {
+        grid-template-columns: 1fr;
+    }
+}
