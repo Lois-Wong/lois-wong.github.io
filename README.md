@@ -1,4 +1,4 @@
-## Hi there 👋
+## Find my personal website here: https://lois-wong.github.io/
 
 <!--
 **Lois-Wong/Lois-Wong** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
