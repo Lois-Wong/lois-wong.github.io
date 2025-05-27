@@ -527,3 +527,43 @@ h1, h2, h3 {
     object-fit: contain;
     flex-shrink: 0;
   }
+
+/* Add these styles for the thumbnails */
+.card-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-thumbnail {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+    flex-shrink: 0;
+}
+
+.card-content {
+    flex-grow: 1;
+}
+
+.essay-card,
+.tutorial-card {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.essay-card h3,
+.tutorial-card h3 {
+    margin-bottom: 0.5rem;
+}
+
+.essay-metadata,
+.tutorial-metadata {
+    font-size: 0.8rem;
+    color: #666;
+}
