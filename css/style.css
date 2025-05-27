@@ -262,3 +262,70 @@ h1, h2, h3 {
         grid-template-columns: 1fr;
     }
 }
+
+/* Essays section */
+.essay-grid {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.essay-card {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.essay-card:last-child {
+    border-bottom: none;
+}
+
+.essay-card h3 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: #2d3748;
+    line-height: 1.4;
+}
+
+.essay-metadata {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    color: #718096;
+    font-size: 0.9rem;
+}
+
+.essay-excerpt {
+    color: #4a5568;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.essay-card a {
+    color: #4f46e5;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.essay-card a:hover {
+    color: #4338ca;
+    text-decoration: underline;
+}
+
+.essay-card i {
+    font-size: 1.2rem;
+}
+
+/* Responsive adjustments for essays */
+@media (max-width: 768px) {
+    .essay-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .essay-card {
+        padding: 1.5rem;
+    }
+}
