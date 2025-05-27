@@ -283,25 +283,15 @@ h1, h2, h3 {
 }
 
 .essay-card h3 {
-    font-family: 'Spectral', serif;
+    font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
     font-size: 1.6rem;
     margin-bottom: 1rem;
     line-height: 1.4;
     font-weight: 500;
 }
 
-.essay-card h3 a {
-    color: #2d3748;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.essay-card h3 a:hover {
-    color: #4f46e5;
-}
-
 .essay-metadata {
-    font-family: 'Spectral', serif;
+    font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
     display: flex;
     gap: 1rem;
     color: #718096;
