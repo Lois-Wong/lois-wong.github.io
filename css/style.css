@@ -43,15 +43,67 @@ nav ul li a {
 }
 
 /* Hero section */
+/* Hero section */
 .hero {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
     padding: 2rem;
     background: #f9f9f9;
+}
+
+.hero-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 4rem;
+    align-items: center;
+}
+
+.hero-image {
+    flex: 1;
+    max-width: 400px;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.hero-content {
+    flex: 2;
+}
+
+.hero-content h1 {
+    margin-bottom: 0.5rem;
+}
+
+.hero-content .subtitle {
+    margin-bottom: 1rem;
+    color: #666;
+}
+
+.hero-content .about-content {
+    margin-top: 2rem;
+}
+
+.hero-content .about-content p {
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+    
+    .hero-image {
+        max-width: 300px;
+        margin: 0 auto;
+    }
 }
 
 /* Sections */
@@ -400,4 +452,11 @@ h1, h2, h3 {
     .tutorial-card {
         padding: 1.5rem;
     }
+}
+
+.project-logo {
+    max-width: 200px;
+    height: auto;
+    margin: 1rem 0;
+    display: block;
 }
