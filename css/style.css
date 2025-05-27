@@ -295,7 +295,7 @@ section h2 {
 
 /* Enhance existing styles */
 body {
-    font-family: 'Inter', 'Arial', sans-serif;
+    font-family: 'Inter', sans-serif;
     line-height: 1.7;
     color: #2d3748;
 }
@@ -406,7 +406,7 @@ h1, h2, h3 {
 }
 
 .essay-card h3 {
-    font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+    font-family: 'Inter', sans-serif;
     font-size: 1.6rem;
     margin-bottom: 1rem;
     line-height: 1.4;
@@ -414,7 +414,7 @@ h1, h2, h3 {
 }
 
 .essay-metadata {
-    font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+    font-family: 'Inter', sans-serif;
     display: flex;
     gap: 1rem;
     color: #718096;
@@ -480,7 +480,7 @@ h1, h2, h3 {
 }
 
 .tutorial-card h3 {
-    font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+    font-family: 'Inter', sans-serif;
     font-size: 1.6rem;
     margin-bottom: 1rem;
     line-height: 1.4;
@@ -500,7 +500,7 @@ h1, h2, h3 {
 }
 
 .tutorial-metadata {
-    font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+    font-family: 'Inter', sans-serif;
     display: flex;
     gap: 1rem;
     color: #718096;
