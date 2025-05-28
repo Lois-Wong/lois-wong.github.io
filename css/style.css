@@ -229,10 +229,6 @@ section h2 {
     margin-right: 0.8rem;
 }
 
-.project-links a:hover {
-    text-decoration: underline;
-}
-
 /* Blog and Essay cards */
 .essay-card, .tutorial-card {
     margin-bottom: 1.5rem;
