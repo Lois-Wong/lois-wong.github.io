@@ -115,8 +115,69 @@ nav ul li a {
 }
 
 /* Sections */
+/* Standardized section styling */
 section {
     padding: 5rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Card styling for projects, essays, and tutorials */
+.project-card, .essay-card, .tutorial-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover, .essay-card:hover, .tutorial-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+/* Card header styling */
+.project-card-header, .essay-card-header, .tutorial-card-header {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Card content styling */
+.project-card-content, .essay-card-content, .tutorial-card-content {
+    flex: 1;
+}
+
+/* Links styling */
+.project-links, .essay-links, .tutorial-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.project-links a, .essay-links a, .tutorial-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #f5f5f5;
+    border-radius: 4px;
+    color: #333;
+    text-decoration: none;
+    transition: background 0.2s ease;
+}
+
+.project-links a:hover, .essay-links a:hover, .tutorial-links a:hover {
+    background: #eaeaea;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .project-card-header, .essay-card-header, .tutorial-card-header {
+        flex-direction: column;
+        gap: 1rem;
+    }
 }
 
 #projects {
