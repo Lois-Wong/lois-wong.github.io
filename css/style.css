@@ -506,7 +506,8 @@ h1, h2, h3 {
 
 .contact-item {
     display: flex;
-    align-items: center;
+    align-items: center; /* vertically centers icon and text */
+    justify-content: flex-start; /* ensures items are left-aligned */
     gap: 1rem;
     font-size: 1.2rem;
 }
