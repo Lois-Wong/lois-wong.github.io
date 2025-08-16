@@ -274,7 +274,7 @@ section h2 {
 
 /* Make project titles match blog/tutorial styling */
 .project-card h3 {
-    font-size: 0.9rem;
+    font-size: 1.4rem; /* Increased from 1.3rem to match h3 base size */
     font-weight: 500;
     color: #444;
     margin-bottom: 0.4rem;
@@ -358,26 +358,28 @@ section h2 {
     font-size: 0.95rem;
     margin-bottom: 2rem;
     line-height: 1.8;
+    font-style: italic;
     
 }
 
 /* Blog and Tutorials */
 .essay-card h3,
 .tutorial-card h3 {
-    font-size: 0.7rem;
-    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
     color: #444;
 }
 
 .essay-card p,
 .tutorial-card p {
-    font-size: 0.7rem;
-    line-height: 1.6;
+    font-size: 0.95rem;
+    line-height: 2;
+    font-style: italic;
 }
 
 .essay-metadata span,
 .tutorial-metadata span {
-    font-size: 0.85rem;
+    font-size: 1.5rem;
     color: #666;
 }
 
