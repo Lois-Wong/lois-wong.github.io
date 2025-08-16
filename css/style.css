@@ -185,7 +185,7 @@ section {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    color: #0056b3;
+    color: #3498db;
     text-decoration: none;
     font-weight: 500;
     margin-right: 1.5rem;
@@ -254,14 +254,14 @@ section h2 {
 
 .project-links a {
     font-size: 0.75rem;
-    color: #0056b3;
+    color: #3498db;
     text-decoration: none;
     margin-right: 0.8rem;
     transition: color 0.2s ease;
 }
 
 .project-links a:hover {
-    color: #0056b3;
+    color: #3498db;
 }
 
 /* Consistent styling for images */
@@ -301,7 +301,7 @@ section h2 {
 
 .project-links a {
     font-size: 0.9rem;
-    color: #0056b3;
+    color: #3498db;
     text-decoration: none;
     margin-right: 1.5rem;
 }
@@ -436,7 +436,7 @@ section h2 {
 
 .tech-stack span {
     background: #eef2ff;
-    color: #4f46e5;
+    color: #3498db;
     padding: 0.3rem 0.8rem;
     border-radius: 15px;
     margin-right: 0.5rem;
@@ -458,13 +458,13 @@ section h2 {
 
 .project-links a {
     font-size: 0.75rem;
-    color: #0056b3;
+    color: #3498db;
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
 .project-links a:hover {
-    color: #0056b3;
+    color: #3498db;
 }
 
 .project-links i {
@@ -479,7 +479,7 @@ body {
 }
 
 nav ul li a:hover {
-    color: #4f46e5;
+    color: #3498db;
 }
 
 .hero {
@@ -530,7 +530,7 @@ h1, h2, h3 {
 }
 
 .contact-item a:hover {
-    color: #4f46e5;
+    color: #3498db;
 }
 
 /* Responsive adjustments */
@@ -609,7 +609,7 @@ h1, h2, h3 {
 
 .essay-card a {
     font-size: 0.9rem;
-    color: #0056b3;
+    color: #3498db;
     text-decoration: none;
     margin-right: 1.5rem;
 }
@@ -663,7 +663,7 @@ h1, h2, h3 {
 
 .tutorial-card h3 a {
     font-size: 0.9rem;
-    color: #0056b3;
+    color: #3498db;
     text-decoration: none;
     margin-right: 1.5rem;
 }
