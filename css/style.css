@@ -447,7 +447,7 @@ section h2 {
 
 .contact-links {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     gap: 2rem;
     margin-top: 2rem;
 }
@@ -515,7 +515,7 @@ h1, h2, h3 {
 
 .contact-item {
     display: flex;
-    align-items: center; /* vertically centers icon and text */
+    align-items: left; /* vertically centers icon and text */
     gap: 1rem;
     font-size: 1.2rem;
 }
