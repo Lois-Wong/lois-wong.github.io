@@ -76,19 +76,21 @@ nav ul li a {
 /* Hero section */
 /* Hero section */
 .hero {
-    min-height: auto;
     padding: 5rem 2rem;
     background: #fff;
-    display: block;
 }
 
 .hero-container {
-    display: block;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
 .hero-image {
-    margin: 0 auto 2rem;
+    margin-bottom: 2rem;
     max-width: 200px;
 }
 
@@ -99,9 +101,7 @@ nav ul li a {
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
-.hero-content {
-    text-align: center;
-}
+
 
 .logo {
     font-family: 'Playfair Display', serif;
@@ -144,18 +144,7 @@ nav ul li a {
     line-height: 1.6;
 }
 
-@media (max-width: 768px) {
-    .hero-container {
-        flex-direction: column;
-        text-align: center;
-        gap: 2rem;
-    }
-    
-    .hero-image {
-        max-width: 300px;
-        margin: 0 auto;
-    }
-}
+
 
 /* Sections */
 /* Standardized section styling */
@@ -821,6 +810,8 @@ footer {
 
 .social-links-hero {
     margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
 }
 
 .social-links-hero a {
