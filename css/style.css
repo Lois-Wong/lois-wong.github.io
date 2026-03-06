@@ -7,8 +7,8 @@
 
 :root {
     --primary-color: #2c3e50; /* Deep blue for academic feel */
-    --secondary-color: #8e2986; /* Accent maroon */
-    --tertiary-color: #e7b43c; /* Accent red for highlights */
+    --secondary-color: #521f4d; /* Accent maroon */
+    --tertiary-color: #b625a0; /* Accent red for highlights */
     --background-color: #f8f9fa; /* Light gray background */
     --text-color: #2c3e50; /* Dark blue-gray for text */
     --light-text: #7f8c8d; /* Lighter text for secondary content */
@@ -189,7 +189,6 @@ section {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    color: #8e2986;
     text-decoration: none;
     font-weight: 500;
     margin-right: 1.5rem;
@@ -258,14 +257,9 @@ section h2 {
 
 .project-links a {
     font-size: 0.75rem;
-    color: #9f198b;
     text-decoration: none;
     margin-right: 0.8rem;
     transition: color 0.2s ease;
-}
-
-.project-links a:hover {
-    color: #8e2986;
 }
 
 /* Consistent styling for images */
@@ -305,7 +299,6 @@ section h2 {
 
 .project-links a {
     font-size: 0.9rem;
-    color: #8e2986;
     text-decoration: none;
     margin-right: 1.5rem;
 }
