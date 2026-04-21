@@ -39,6 +39,7 @@ a {
 a:hover {
     color: var(--tertiary-color);
 }
+
 /* Navigation */
 nav {
     display: flex;
@@ -103,6 +104,8 @@ nav ul li a {
 
 
 
+
+
 .logo {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
@@ -130,6 +133,10 @@ nav ul li a {
     color: var(--secondary-color);
 }
 
+.hero-content {
+    text-align: center;
+}
+
 .hero-content h1 {
     margin-bottom: 0.5rem;
 }
@@ -139,10 +146,17 @@ nav ul li a {
     color: #666;
 }
 
+.about-content {
+    max-width: 700px; /* Optimal reading width */
+    margin: 0 auto; /* Center the text block */
+    text-align: left; /* Left-align text for readability */
+}
+
 .about-content p {
     margin-bottom: 1.5rem;
-    line-height: 1.6;
+    line-height: 1.7; /* Slightly increased line height for better readability */
 }
+
 
 
 
