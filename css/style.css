@@ -7,7 +7,7 @@
 
 :root {
     --primary-color: #1a1614; /* Deep blue for academic feel */
-    --secondary-color: #521f4d; /* Accent maroon */
+    --secondary-color: #c4147f; /* Accent magenta */
     --tertiary-color: #b625a0; /* Accent red for highlights */
     --background-color: #f8f9fa; /* Light gray background */
     --text-color: #2c3e50; /* Dark blue-gray for text */
@@ -32,7 +32,7 @@ p, li, span { font-size: 1rem; line-height: 1.8; color: var(--text-color); }
 
 a {
     color: var(--secondary-color);
-    text-decoration: dashed underline;
+    text-decoration: underline;
     transition: color 0.2s ease;
 }
 
