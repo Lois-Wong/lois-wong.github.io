@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lois Wong - Projects">
+    <title>Projects | Lois Wong</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?v=1.0.1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Lois Wong</div>
+            <button class="mobile-menu-btn" aria-label="Toggle mobile menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="#talks">Talks & Workshops</a></li>
+                <li><a href="https://medium.com/@lois_wong">Essays</a></li>
+                <li><a href="Files/loiswongCV.pdf" target="_blank" rel="noopener noreferrer">CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <div class="talks-container">
+                <div class="talk">
+                    <h4><a href="https://trygaita.lovable.app/">Gaita: A RAG System for Personalized Computer Science Education</a></h4>
+                    <p><i>Gaita is a conversational RAG system that generates personalized Computer Science learning pathways from 
+                        open-access courseware. Inspired by my own transition into tech, Gaita was designed to make CS education accessible to learners from non-technical and non-traditional
+                        backgrounds.</i></p><br>
+                </div>
+
+                <div class="talk">
+                    <h4>AI Symposium</h4>
+                    <p><i>We often hear that AI development needs perspectives from fields like the humanities and social sciences, but there is little 
+                        clarity to what this actually means in practice. This symposium brings together AI practitioners/developers and experts 
+                        from different fields to discuss bottlenecks to meaningful interdisciplinary AI collaboration and how 
+                        to begin operationalizing it. Symposium proceedings will be published in our institutional repository, and we will establish a Community of Practice
+                        to move from discussion to implementation. Call for proposals and further details will be announced fall 2026.</i></p><br>
+
+                </div> 
+
+                <div class="talk">
+                    <h4>AI & Digital Citizenship Program</h4>
+                    <p><i>AI literacy is becoming a gatekeeping competency. Without it, people are excluded from professional
+                    opportunity, and more importantly, from participating in decisions about systems that impact everyday life. Addressing bias and harm requires contributions from different academic fields and the communities 
+                    affected by these technologies, and current AI education resources do not support these learners.</i></p>
+                    
+                    <p><i>This program will be accessible to learners without traditional technical backgrounds. Unlike existing AI education resources, this prioritizes civic 
+                        participation, critique, and responsible use over technical career placement. It will take the form of an on-campus program, a teach-in open to the community, and published as a MOOC.</i></p><br>
+                </div> 
+
+                
+                <div class="talk">
+                    <h4>AI from an Information Perspective (MOOC)</h4>
+                    <p><i>There is much overlap between Computer and Information Science, particularly on the subjects of information retrieval, 
+                        recommender systems, and the emergence of information overload that surfaced with the advent of the internet. Many limitations of Computer Science and Artificial Intelligence are 
+                        fundamentally information problems – from unrepresentative and biased training data to questions of data privacy and 
+                        consent. Conversely, recent developments and innovations are a result of information and data advances. This introductory AI course designed for librarians and information workers is being built in collaboration with
+                        <a href="https://library.sjsu.edu/prf.php?id=5c670c39-7cdb-11ed-9922-0ad758b798c3">Sharesly Rodriguez, AI Librarian at SJSU</a>.</i></p><br>
+                </div>
+
+
+            </div>
+        </section>
+
+       
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Lois Wong. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript for mobile menu toggle -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+            const nav = document.querySelector('nav');
+            
+            mobileMenuBtn.addEventListener('click', function() {
+                nav.classList.toggle('mobile-menu-open');
+            });
+            
+            // Close menu when clicking on a link
+            const navLinks = document.querySelectorAll('nav ul li a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    nav.classList.remove('mobile-menu-open');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
