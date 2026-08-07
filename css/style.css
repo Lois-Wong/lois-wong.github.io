@@ -91,7 +91,7 @@ nav ul li a {
 }
 
 .hero-image {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     max-width: 200px;
 }
 
@@ -830,4 +830,82 @@ footer {
 
 .social-links-hero a:hover {
     color: var(--secondary-color);
+}
+
+/* --- Visual improvements --- */
+
+/* Logo: use Lora (already imported) instead of unloaded Playfair Display */
+.logo {
+    font-family: 'Lora', serif;
+}
+
+/* Section headings: left-aligned with a subtle bottom rule */
+section > h2 {
+    text-align: left;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid #e2e8f0;
+    margin-bottom: 2rem;
+    color: #1a202c;
+}
+
+/* Talk/project/essay rows */
+.talks-container > .talk {
+    padding: 1.25rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.talks-container > .talk:last-child {
+    border-bottom: none;
+}
+
+.talk h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1a202c;
+    margin-bottom: 0.3rem;
+    line-height: 1.4;
+}
+
+.talk p {
+    font-size: 0.875rem;
+    color: #555;
+    margin-bottom: 0.2rem;
+    line-height: 1.6;
+}
+
+/* Subgroup labels (Upcoming / Past) directly inside talks-container */
+.talks-container > h3 {
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #bbb;
+    margin: 2.5rem 0 0.25rem;
+    border: none;
+}
+
+.talks-container > h3:first-child {
+    margin-top: 0;
+}
+
+/* Hero name block */
+.hero-name {
+    margin: 0 0 1rem;
+    text-align: center;
+}
+
+.hero-name h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Lora', serif;
+    color: #1a202c;
+    margin-bottom: 0.2rem;
+}
+
+.hero-subtitle {
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 0;
 }
